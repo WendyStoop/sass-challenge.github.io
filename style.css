@@ -19,15 +19,15 @@ article {
 }
 
 article section {
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
   border: 1px silver solid;
-  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  padding: 16px;
+  padding: 2px;
   margin: 16px;
   clear: both;
   overflow: auto;
@@ -58,12 +58,12 @@ article pre {
   white-space: pre-wrap;
 }
 
-article pre.before {
+article pre .before {
   float: left;
   width: 40%;
 }
 
-article pre.after {
+article pre .after {
   float: right;
   width: 40%;
 }
@@ -81,7 +81,7 @@ h1 {
 h6 {
   text-align: center;
   font-size: 2em;
-  padding: 32px;
+  padding: 20px;
   margin-bottom: 0px;
 }
 
@@ -90,7 +90,7 @@ h6 {
 .error,
 .warning {
   border: 1px solid #ccc;
-  padding: 16px;
+  padding: 2px;
   margin: 16px;
   color: #2748b3;
   background-color: #000;
@@ -106,5 +106,13 @@ h6 {
 
 .warning {
   background-color: orange;
+}
+
+.mybox {
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  background-color: darkmagenta;
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
